@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,sum=0;
-    scanf("%d %d",&a,&b);
-    int min = (a<b)?a:b;
-    int max = (a<b)?b:a;
-    for(int i=min;i<=max;i++)
+    int x,y,sum=0;
+    scanf("%d %d",&x,&y);
+    int min = (x<y)?x:y;
+    int max = (x<y)?y:x;
+    for(int i=min+1;i<max;i++)
     {
         if(i%2!=0)
         {
