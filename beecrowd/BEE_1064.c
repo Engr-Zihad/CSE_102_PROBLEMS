@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int count=0,sum=0;
+    int count=0;
+    double sum=0;
     for(int i =0; i<6;i++)
     {
         double a;
@@ -12,6 +13,6 @@ int main() {
             count++;
         }
     }
-    printf("%d valores positivos\n%.1lf\n",count,(double)sum/count);
+    printf("%d valores positivos\n%.1lf\n",count,sum/count);
     return 0;
 }
